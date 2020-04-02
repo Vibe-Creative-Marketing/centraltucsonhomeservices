@@ -1,0 +1,54 @@
+{{ define "main" }}
+<!--Services page-->
+{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title) }}
+
+{{ with .Params.main }}
+{{ end }}
+{{ range .Params.services}}
+
+<div class="mw7 center">
+  <div class="pa2 pl3-ns mb7 z-999 center absolute">
+    <h1 class="f3 b tc lh-title black bg-highlight w5-ns center" >{{ .heading }}</h1>{{ end }}
+  </div>
+</div>
+
+<div class="mw7 center ph3-ns mb4-ns mr5-l relative pt3">
+  
+  <div class="flex-ns center">
+    
+    <div class="pa3 bg-grey-1 center f5 ma2 mb0-ns">
+      <p>{{ .Content }}</p>
+    </div>
+    <div class="pa3 pl4 bg-highlight f5 mb4 mb0-ns ma2">
+      <h3 class="b black">Our Services</h3>
+      <ul class="list">{{ .Params.list | safeHTML }}</ul>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="mw7 mh3 mb3-ns center">
+  <h1 class="f3 b tc mb2 lh-title black bg-highlight mw6 mw5-l center" >Read More About...</h1>
+  <ul class="flex-ns flex-wrap mhn1-ns pa3">
+      {{ range (.Paginator 4).Pages.ByPublishDate.Reverse }}
+          <div class="w-50-ns ph1-ns flex">
+            {{ .Render "li"}}
+          </div>
+      {{ end }}
+  </ul>
+
+</div>
+
+<h1 class="f3 b cf tc mb2 lh-title black bg-highlight mw6 center">What Our Customers Are Saying</h1>
+<div class="mb3-ns mw7 center">
+  {{ range .Params.testimonials }}
+    {{ partial "blockquote" . }}
+  {{ end }}
+</div>
+
+<div class="tc mb2">
+  <a href="/contact" class="btn raise">Contact us today!</a>
+</div>
+
+{{end}}

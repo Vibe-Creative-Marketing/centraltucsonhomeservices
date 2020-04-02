@@ -1,0 +1,24 @@
+{{ define "main" }}
+
+<div class="ph3 bg-off-white">
+	<div class="center mw6 pv3">
+
+		<a class="f4 db center pv2 mb3 no-underline b lh-title tc white bg-primary mw6" href="/">Get in touch with ASAP Movers 808</a>
+
+		{{ .Content }}
+
+		<div class="flex mw6 center mb3">
+	        	{{ range .Params.contact_entries }}
+				<div class="mt3 center">
+					<h4 class="f4 b lh-title mb2 black bg-highlight mw4 tc">{{ .heading }}</h4>
+					<p>{{ .text | safeHTML }}</p>
+				</div>
+			{{ end }}
+		</div>
+
+		{{ partial "contact-form" . }}
+
+	</div>
+</div>
+
+{{ end }}
