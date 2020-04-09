@@ -3,7 +3,7 @@ title: "Moving to Hawaii"
 date: 2020-03-27
 description: >-
   ASAP Movers 808 can help you move to Hawaii from anywhere on the mainland.
-image: https://cdn.asapmovers808.com/hawaii-waikiki-beach-700.jpg
+image: https://vibecdna.azureedge.net/asapmovers808/hawaii-waikiki-beach-700.jpg
 ---
 Congratulations, you’re moving to Hawaii!
 

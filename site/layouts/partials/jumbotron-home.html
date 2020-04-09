@@ -1,24 +1,34 @@
-<div class="pv5 pv6-ns ph3 bg-top bg-center-l cover mb4" style="background-image: url('{{.imageUrl}}')">
-  <div class="mw7 center ph3">
-    <div class="db mb3">
-      <div class="mw7 relative tl mb3">
-        
-        <h1 class="f9 f1 b lh-solid mb3 white mw6 bg-primary dn-l di">
-          {{.titlesmall | safeHTML}}
-        </h1>
-      
-        <h1 class="f9 f1 b lh-solid mb3 white mw6 bg-primary dn di-l ">
-          {{.titlelarge}}
-        </h1>
-        
-      </div>
-      <div class="mw7 relative tl">
-        {{ if .subtitle }}
-        <p class="b f4 di lh-solid mb3 black mw6 bg-highlight">
-          {{.subtitle}}
-        </p>
-        {{ end }}
-      </div>
+<header class="vh-100 w-100 relative cover bg-center" role="banner" style="background-image: url('{{.imageM}}'); 
+background-image: -webkit-image-set(
+  url('{{.imageS}}') 1x,  
+  url('{{.imageM}}') 2x,
+  url('{{.imageL}}') 3x);">
+
+  <!--<picture>
+    <source srcset="{{.imageS}} 500w, {{.imageM}} 1000w, {{ .imageL }} 2000px" type="image/jpeg">
+    <source srcset="{{.webpS}} 500w, {{.webpM}} 1000w, {{.webpL}} 2000px" type="image/webp">
+    <img src="{{.imageL}}" alt="" class="cover background-image">
+  </picture>-->
+ 
+  <section class="top-2 absolute center pl4">
+    <div>
+      <h2 class="f3 f1-l fw4 white-90 m0 lh-title pt2 pb3 pv0-ns">
+        {{.title}}
+      </h2>
     </div>
-  </div>
-</div>
+
+    <div class="f3 f1-l fw4 white-90 m0 lh-title pt2 pb3 pv0-ns">
+      {{ if .subtitle }}
+      <p>
+        {{.subtitle}}
+      </p>
+      {{ end }}
+    </div>
+
+    <div class="mw5 mw7-ns">
+      <a class="w4 f5 dib link grow tc v-mid bg-blue white ba b--blue ph3 pt2 br1 ml3 mt3 mt0-ns" href="">Get A Quote</a>
+      <a class="f5 dib link grow tc v-mid bg-blue white ba b--blue ph3 pt2 br1 ml3 mt3 mt0-ns" href="">(555) 555-5555</a>
+    </div>
+
+  </section>
+</header>
