@@ -1,19 +1,18 @@
+<main class="center ma2 cf w-100">
 
+  <div class="center ph5 mb4">
+    <h2 class="f1 b black">{{.intro.heading}}</h2>
+    <p class="f2">{{.intro.heading}}</p>
+      <div class="pt1 mw6 bg-black">
+  
+      </div>
+  </div>
 
-<div class="ph4 pt4-ns center">
-  <h2 class="f1 b black">{{.intro.heading}}</h2>
-  <p class="f2">{{.intro.heading}}</p>
-    <div class="pt1 mw6 bg-black">
-
-    </div>
-</div>
-
-<div class="center pt3 pb3 cf">
-  <div class="pa3 w-100 w-50-ns fl-ns">
+  <div class="pt3 ph5 mb3 w-100 w-50-l fl">
     <picture>
       <source srcset="{{.service1.images}} 500w" type="image/jpeg">
       <source srcset="{{.service1.webpS}} 500w" type="image/webp">
-      <img src="{{.service1.images}}" alt="" class="br-100 w4 h4 w5-l h5-l" style="">
+      <img src="{{.service1.images}}" alt="" class="br-100 w5 h5">
     </picture>
 
     <h3>
@@ -28,11 +27,11 @@
     </div>
   </div>
 
-  <div class="pa3 w-100 w-50-ns fl">
+  <div class="pt3 ph5 mb3 w-100 w-50-l fl">
     <picture>
-      <source srcset="{{.imageS}} 500w, {{.imageM}} 1000w, {{ .imageL }} 2000px" type="image/jpeg">
-      <source srcset="{{.webpS}} 500w, {{.webpM}} 1000w, {{.webpL}} 2000px" type="image/webp">
-      <img src="{{.imageS}}" alt="" class="br-100 w4 h4 w5-l h5-l" style="">
+      <source srcset="{{.service2.images}}" type="image/jpeg">
+      <source srcset="{{.service2.webpS}} 500w" type="image/webp">
+      <img src="{{.images}}" alt="" class="br-100 w5 h5">
     </picture>
 
     <h3>
@@ -50,27 +49,6 @@
 
   </div>
 
-</div>
+</main>
 
-
-<!--
-  <div class="bg-white-90 pv4 center">
-
-  <div class="w-80-l bg-grey-1 center pb5 pb4-l mt3-ns">
-    <div class="flex-l mw7 center mhn2-s mb3">
-      {{ range .services }}
-      <div class="ph4-ns mt4-l">
-        <img src="{{.image}}" alt="" class="db mb3 mt4 pt2-l center" style="width: 300px">
-        <h3 class="f4 b lh-title mb2 l black bg-highlight mw7">{{ .heading }}</h3>
-        <p class="pb2-l mb6-l">{{.text}}</p>
-        <div class="mb2-ns bottom-0-l center mw4 raise">
-          <a href="{{ .link }}" class="btn">{{ .button }}</a>
-        </div>
-      </div>
-      {{ end }}
-    </div>
-
-    
-  </div>
-</div>
--->
+<div class="w-100 bg-blue h2 mb3"></div>
