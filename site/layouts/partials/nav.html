@@ -1,52 +1,41 @@
-<style>
-	.menu {
-	  /* no way to control min height in Tachyons */
-	  max-height: 0; /* hide menu completely when burger unchecked */
-	  transition: max-height 0.5s; /* show/hide menu transition */
-	}
-	/* when checkbox is checked, display menu (sibling element) */
-	#burger:checked ~ .menu {
-	  max-height: 100%;
-	}
-  </style>
-
-
-
-<nav class="bg-white black w-100 cf">
+<nav class="bg-white black cf">
 
 	<div class="center flex-ns flex-wrap items-center justify-start pt2 relative dn dib-ns">
 		<a href="/">
-			<img src="https://vibecdn.azureedge.net/cths/logo.svg" alt="Logo" class="ml5 mr2 mr5-l mb2 db link w4 w3-m">
+			<img src="https://vibecdn.azureedge.net/cths/logo.svg" alt="Logo" class="ml5 mr2 mr5-l mb2 db link w4">
 		</a>
 		<div class="absolute right-2 mb4">
 		<ul class="list dib">
-			<li class="f4 dib mr5 mr1-m" role="menuitem"><a class="dim link black" href="/services" class="link">Services</a></li>
-			<li class="f4 dib mr5 mr1-m" role="menuitem"><a class="dim link black" href="/about" class="link">About</a></li>
-			<li class="f4 dib mr5 mr1-m" role="menuitem"><a class="dim link black" href="/contact" class="link">Contact</a></li>
-			<li class="f4 dib mr5 mr1-m"><a class="w4 f5 dib link grow tc v-mid bg-blue white ba b--blue ph3 pt2 br1 ml3 mr2-m mt3 mt0-ns" href="/">(555) 555-5555</a></li>
+			<li class="f4 dib mr5 mr2-m" role="menuitem"><a class="b dim link blue" href="/services" class="link">Services</a></li>
+			<li class="f4 dib mr5 mr2-m" role="menuitem"><a class="b dim link blue" href="/about" class="link">About</a></li>
+			<li class="f4 dib mr5 mr2-m" role="menuitem"><a class="b dim link blue" href="/contact" class="link">Contact</a></li>
+			<li class="f4 dib mr5 mr2-m"><a class="w4 b di link grow tc v-mid bg-red white ba b--red pa2 br1" href="tel:(520) 276-9422">(520) 276-9422</a></li>
 		</ul>
 		</div>
 	</div>
 
 		<input type="checkbox" id="burger" class="dn">
   		<label for="burger" class="dn-ns fr pr3 pt3 f2">
-                <span class='db w2 mt1 mb2 bw2 pb2 bt bb b--dark-gray'></span>
-                <span class='db w2 mt1 bw2 pb1 bt b--dark-gray'></span>
+                <span class='db w2 mt1 mb2 bw2 pb2 bt bb b--blue'></span>
+                <span class='db w2 mt1 bw2 pb1 bt b--blue'></span>
 		</label>
 
 		<a href="/" class="dn-ns">
 			<img src="https://vibecdn.azureedge.net/cths/logo.svg" alt="Logo" class="db w3 pb2 pa2">
 		</a>
 		
-		<ul class="menu overflow-hidden dn-ns w-100 list pa0 ma0 f2">
+		<ul class="menu overflow-hidden dn-ns center list pa0 ma0 f2">
 			<li class="pl6 tl">
-			  <a href="/services" class="black link">Services</a>
+				<a href="/" class="blue link">Home</a>
+			  </li>
+			<li class="pl6 tl">
+			  <a href="/services" class="blue link">Services</a>
 			</li>
 			<li class="pl6 tl ">
-			  <a href="/about" class="black link">About</a>
+			  <a href="/about" class="blue link">About</a>
 			</li>
 			<li class="pl6 tl ">
-			  <a href="/contact" id="contact-link" class="black link">Contact</a>
+			  <a href="/contact" id="contact-link" class="blue link">Contact</a>
 			</li>
 		</ul>
 

@@ -1,23 +1,23 @@
-<header class="vh-75 w-100 relative cover bg-center" role="banner" style="background-image: url('{{.imageL}}');">
+<header class="vh-100 relative cover bg-center" role="banner" style="background-image: url('{{.imageL}}');">
  
-  <section class="top-2 absolute center pl4">
-    <div>
-      <h2 class="f3 f1-l fw4 white-90 m0 lh-title pt2 pb3 pv0-ns">
-        {{.title}}
-      </h2>
+  <section class="top-1 top-2-l absolute center pa3 pa6-l black">
+    <div class="">
+      <h1 class="f2 f1-l fw9 lh-title">
+        {{ .title | safeHTML }}
+      </h1>
     </div>
 
-    <div class="f3 f1-l fw4 white-90 m0 lh-title pt2 pb3 pv0-ns">
+    <div class="f3 f2-l fw5 lh-title pb3">
       {{ if .subtitle }}
       <p>
-        {{.subtitle}}
+        {{ .subtitle | safeHTML }}
       </p>
       {{ end }}
     </div>
 
     <div class="mw5 mw7-ns">
-      <a class="w4 f5 dib link grow tc v-mid bg-blue white ba b--blue ph3 pt2 br1 ml3 mt3 mt0-ns" href="">Get A Quote</a>
-      <a class="f5 dib link grow tc v-mid bg-blue white ba b--blue ph3 pt2 br1 ml3 mt3 mt0-ns" href="">(555) 555-5555</a>
+      <a class="w5 f4 dib link grow tc bg-blue white ba b--blue pa3 b br1 ml4 ml0-ns mt3 mt0-ns" href="tel:(520) 276-9422">(520) 276-9422</a>
+      <a class="w5 f4 dib link grow tc bg-blue white ba b--blue pa3 b br1 ml4 ml5-ns mt3 mt0-ns" href="/contact">Get a Free Quote</a>
     </div>
 
   </section>
