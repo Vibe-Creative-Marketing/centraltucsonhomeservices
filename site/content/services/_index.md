@@ -1,6 +1,10 @@
 ---
 title: Our Services
-image: https://vibecdna.azureedge.net/asapmovers808/shipping-containers-by-ocean-1440.jpg
+subtitle: olwigedfpoqigev08g10e4q2801q8g
+imageS: https://vibecdn.azureedge.net/cths/services-500.jpg
+imageM: https://vibecdn.azureedge.net/cths/services-1000.jpg
+webpS: https://vibecdn.azureedge.net/cths/services-500.webp
+webpM: https://vibecdn.azureedge.net/cths/services-1000.webp
 testimonials:
   - author: "Erica M"
     quote: >
