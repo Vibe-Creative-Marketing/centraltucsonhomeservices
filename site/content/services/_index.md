@@ -1,10 +1,12 @@
 ---
 title: Our Services
 subtitle: olwigedfpoqigev08g10e4q2801q8g
+button: Get a Free Quote
 imageS: https://vibecdn.azureedge.net/cths/services-500.jpg
 imageM: https://vibecdn.azureedge.net/cths/services-1000.jpg
 webpS: https://vibecdn.azureedge.net/cths/services-500.webp
 webpM: https://vibecdn.azureedge.net/cths/services-1000.webp
+logo: https://vibecdn.azureedge.net/cths/logo.svg
 testimonials:
   - author: "Erica M"
     quote: >

@@ -1,31 +1,34 @@
-<header class="mb3 center cf" role="banner">
+<header class="mb3 cf bg-green vh-75 flex-l items-center relative" role="banner">
  
   <section class="w-100 w-50-ns fl">
-    <div class="">
-      <h1 class="f2 f1-l fw9 lh-title">
+
+    <div class="center mb3 pl3 pr3 ml5-l">
+      <h1 class="f1 f1-l fw9 lh-title">
         {{ .title}}
       </h1>
-    </div>
 
-    <div class="f3 f2-l fw5 lh-title pb3">
       {{ if .subtitle }}
-      <p>
+      <p class="f3 f2-l fw5 lh-title pb3 word-wrap mw5-t mt6-l">
         {{ .subtitle | safeHTML }}
       </p>
       {{ end }}
+
+      <div class="mw5 mw7-ns mt6-l">
+        <a class="w5 f4 dib link grow tc bg-blue white ba b--blue pa3 b br1 mr4-l mt3 mt0-ns" href="tel:(520) 276-9422">(520) 276-9422</a>
+        <a class="w5 f4 dib link grow tc bg-blue white ba b--blue pa3 b br1 mt3 mt2-ns" href="/contact">{{ .button }}</a>
+      </div>
     </div>
 
-    <div class="mw5 mw7-ns">
-      <a class="w5 f4 dib link grow tc bg-blue white ba b--blue pa3 b br1 ml4 ml0-ns mt3 mt0-ns" href="tel:(520) 276-9422">(520) 276-9422</a>
-      <a class="w5 f4 dib link grow tc bg-blue white ba b--blue pa3 b br1 ml4 ml5-ns mt3 mt0-ns" href="/contact">Get a Free Quote</a>
-    </div>
-
+   
   </section>
+  <div class="br-100 pa3 bg-white w5 absolute left-50 nl6 dn dib-l">
+    <img src="{{ .logo }}" alt="Logo">
+    </div>
 
-    <picture class="w-100 w-50-ns dn dib-ns fl">
+    <picture class="w-100 w-50-l fl">
       <source srcset="{{ .webpS }} 500w, {{ .webpM }} 1000w" type="image/webp">
       <source srcset="{{ .imageS }} 500w, {{ .imageM }} 1000w" type="image/jpeg">
-      <img src="{{ .imageM }}" alt="Services" class="cover">
+      <img src="{{ .imageM }}" alt="Services" class="vh-75 w-100-l fit-cover">
 
     </picture>
 
