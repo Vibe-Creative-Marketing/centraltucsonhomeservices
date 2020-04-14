@@ -19,15 +19,13 @@ services:
     webpS: https://vibecdn.azureedge.net/cths/services-electrical-500.webp
     webpM: https://vibecdn.azureedge.net/cths/services-electrical-1000.webp
     alt: "Electrical Services"
----      
-Where in the world is life taking you next? No matter the distance, if you’re headed off to college, changing your office backdrop, or need a new place to call home, ASAP Movers 808 is the moving company you’ve been searching for.  
-
-Based out of Hawaii, we’re ready to move you to, from, or between the islands. We specialize in long-distance moving as well as local service moving, and offer expertise in commercial moving and residential moving.   
-
-Our strength is in getting your belongings wherever they need to go. With ASAP Movers 808, enjoy a smooth and seamless moving experience so you can focus on life ahead.   
-
-Read more about our service expertise and [contact us today](/contact).
-
+    button1: "Get a Free Quote"
+    link1: "/contact"
+    button2: "Learn More"
+    link2: "#"
+    heading2: "More Services"
+    text2: "Consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem."
+---
 
 
 
