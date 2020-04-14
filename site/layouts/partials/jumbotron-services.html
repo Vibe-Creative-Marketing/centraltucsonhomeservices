@@ -1,6 +1,6 @@
 <header class="mb5 cf bg-green vh-75 flex-l items-center relative" role="banner">
  
-  <section class="w-100 w-50-ns fl">
+  <section class="w-100 w-50-l fl">
 
     <div class="center mb3 pl3 pr3 ml5-l">
       <h1 class="f1 f1-l fw9 lh-title">
@@ -13,7 +13,7 @@
       </p>
       {{ end }}
 
-      <div class="mw5 mt6-l">
+      <div class="mt6-l">
         <a class="w5 f4 dib link grow tc bg-blue white ba b--blue pa3 b br1 mr4-l mt3 mt0-ns" href="tel:(520) 276-9422">(520) 276-9422</a>
         <a class="w5 f4 dib link grow tc bg-blue white ba b--blue pa3 b br1 mt3 mt2-ns" href="/contact">{{ .button }}</a>
       </div>
@@ -26,10 +26,10 @@
     <img src="{{ .logo }}" alt="Logo">
     </div>
 
-  <picture class="w-100 w-50-l fl nb1-l">
+  <picture class="w-100 w-50-l fl nb1-l mb5 mb0-l">
     <source srcset="{{ .webpS }} 500w, {{ .webpM }} 1000w" type="image/webp">
     <source srcset="{{ .imageS }} 500w, {{ .imageM }} 1000w" type="image/jpeg">
-    <img src="{{ .imageM }}" alt="Services" class="vh-75 w-100-l fit-cover">
+    <img src="{{ .imageM }}" alt="Services" class="vh-50 vh-75-l w-100 fit-cover">
   </picture>
 
   

@@ -9,10 +9,11 @@ webpM: https://vibecdn.azureedge.net/cths/services-1000.webp
 logo: https://vibecdn.azureedge.net/cths/logo.svg
 intro:
     heading: "Service Header 2"
-    text: "Some stuff here for text"
+    text: "Our team of professionals is fully licensed, insured, and bonded in electrical services. 
+More services are coming soon!"
 services:
-  - heading: "What We Do"
-    text: "Hello"
+  - heading: "Electrical"
+    text: "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur."
     imageS: https://vibecdn.azureedge.net/cths/services-electrical-500.jpg
     imageM: https://vibecdn.azureedge.net/cths/services-electrical-1000.jpg
     webpS: https://vibecdn.azureedge.net/cths/services-electrical-500.webp
