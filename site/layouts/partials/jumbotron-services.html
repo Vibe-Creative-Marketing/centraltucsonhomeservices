@@ -1,4 +1,4 @@
-<header class="mb3 cf bg-green vh-75 flex-l items-center relative" role="banner">
+<header class="mb5 cf bg-green vh-75 flex-l items-center relative" role="banner">
  
   <section class="w-100 w-50-ns fl">
 
@@ -8,12 +8,12 @@
       </h1>
 
       {{ if .subtitle }}
-      <p class="f3 f2-l fw5 lh-title pb3 word-wrap mw5-t mt6-l">
+      <p class="f3 f2-l fw5 lh-title pb3 word-wrap mw5-t mw6 mt6-l">
         {{ .subtitle | safeHTML }}
       </p>
       {{ end }}
 
-      <div class="mw5 mw7-ns mt6-l">
+      <div class="mw5 mt6-l">
         <a class="w5 f4 dib link grow tc bg-blue white ba b--blue pa3 b br1 mr4-l mt3 mt0-ns" href="tel:(520) 276-9422">(520) 276-9422</a>
         <a class="w5 f4 dib link grow tc bg-blue white ba b--blue pa3 b br1 mt3 mt2-ns" href="/contact">{{ .button }}</a>
       </div>
@@ -21,16 +21,24 @@
 
    
   </section>
+
   <div class="br-100 pa3 bg-white w5 absolute left-50 nl6 dn dib-l">
     <img src="{{ .logo }}" alt="Logo">
     </div>
 
-    <picture class="w-100 w-50-l fl">
-      <source srcset="{{ .webpS }} 500w, {{ .webpM }} 1000w" type="image/webp">
-      <source srcset="{{ .imageS }} 500w, {{ .imageM }} 1000w" type="image/jpeg">
-      <img src="{{ .imageM }}" alt="Services" class="vh-75 w-100-l fit-cover">
-
-    </picture>
+  <picture class="w-100 w-50-l fl nb1-l">
+    <source srcset="{{ .webpS }} 500w, {{ .webpM }} 1000w" type="image/webp">
+    <source srcset="{{ .imageS }} 500w, {{ .imageM }} 1000w" type="image/jpeg">
+    <img src="{{ .imageM }}" alt="Services" class="vh-75 w-100-l fit-cover">
+  </picture>
 
   
 </header>
+
+<div class="center tc ph5-ns mb5">
+  <h2 class="f2 b black">{{.intro.heading}}</h2>
+  <p class="f4">{{.intro.text}}</p>
+    <div class="pt1 mw6 center bg-green">
+
+    </div>
+</div>

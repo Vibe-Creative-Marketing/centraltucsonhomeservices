@@ -1,12 +1,17 @@
-<div class="flex-m mhn3-m mb4">
+<div class="cf center flex-l items-center">
 
-  <div class="ph3-m w-50-m">
-    <img src="{{.imageUrl}}" alt="" class="db mb2">
-  </div>
+  <div class="w-100 w-50-l fl">
+    <div class="center mb3 pl3 pr3 ml5-l">
+      <h2 class="f1 f1-l fw9 lh-title">{{.heading}}</h3>
+      <p class="f3 f2-l fw5 lh-title pb3 word-wrap mw7">{{.text}}</p>
+    </div>
+  </div> 
+  <picture class="w-100 w-50-l fl">
+    <source srcset="{{ .webpS }} 500w, {{ .webpM }} 1000w" type="image/webp">
+    <source srcset="{{ .imageS }} 500w, {{ .imageM }} 1000w" type="image/jpeg"> 
+    <img src="{{ .imageM }}" alt="{{ .alt }}" class="db mb2 mw6-t mw7-l center">
+  </picture>
 
-  <div class="ph3-m w-50-m">
-    <h3 class="f3 b lh-title mb1 black bg-highlight mw6">{{.heading}}</h3>
-    <p>{{.text}}</p>
-  </div>
+  
 
 </div>
