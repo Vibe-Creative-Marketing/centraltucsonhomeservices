@@ -22,7 +22,7 @@ services:
     button1: "Get a Free Quote"
     link1: "/contact"
     button2: "Learn More"
-    link2: "#"
+    link2: "/electrical"
     heading2: "More Services"
     text2: "Consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem."
 ---

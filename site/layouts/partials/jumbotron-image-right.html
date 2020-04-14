@@ -1,14 +1,21 @@
-<header class="mb5 cf bg-green vh-75 flex-l items-center relative" role="banner">
- 
-  <section class="w-100 w-50-l fl">
+<header class="cf bg-green vh-100 vh-75-l flex-l items-center" role="banner">
+  
+  <picture class="w-100 w-50-l fl nb1-l">
+    <source srcset="{{ .webp1S }} 500w, {{ .webp1M }} 1000w" type="image/webp">
+    <source srcset="{{ .image1S }} 500w, {{ .image1M }} 1000w" type="image/jpeg">
+    <img src="{{ .image1M }}" alt="Services" class="vh-50 vh-75-l w-100 fit-cover">
+  </picture>
 
-    <div class="center mb3 pl3 pr3 ml5-l">
-      <h1 class="f1 f1-l fw9 lh-title">
+  <section class="w-100 w-50-l vh-50 vh-75-l fl flex items-center">
+
+
+    <div class="center pa3 pb5">
+      <h1 class="f3 f1-l fw9 lh-title">
         {{ .title}}
       </h1>
 
       {{ if .subtitle }}
-      <p class="f3 f2-l fw5 lh-title pb3 word-wrap mw5-t mw6 mt6-l">
+      <p class="f4 f2-l fw5 lh-title pb3 word-wrap mw5-t mw6 mt6-l">
         {{ .subtitle | safeHTML }}
       </p>
       {{ end }}
@@ -22,15 +29,7 @@
    
   </section>
 
-  <div class="br-100 pa3 bg-white w5 absolute left-50 nl6 dn dib-l">
-    <img src="{{ .logo }}" alt="Logo">
-    </div>
 
-  <picture class="w-100 w-50-l fr nb1-l mb5 mb0-l">
-    <source srcset="{{ .webpS }} 500w, {{ .webpM }} 1000w" type="image/webp">
-    <source srcset="{{ .imageS }} 500w, {{ .imageM }} 1000w" type="image/jpeg">
-    <img src="{{ .imageM }}" alt="Services" class="vh-50 vh-75-l w-100 fit-cover">
-  </picture>
 
   
 </header>

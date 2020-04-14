@@ -2030,6 +2030,8 @@ svg { fill: currentColor; }
 .fit-scale-down { -o-object-fit: 'scale-down'; object-fit: 'scale-down'; }
 /* service logo centered */
 .left-50 { left: 50%; }
+/* electircal page left-right-middle height */
+.mt-50 { margin-top: 50%; }
 /* Debugging */
 /*
 
