@@ -1,12 +1,14 @@
-<div class="cf">
-    <picture class="vh-100 vh-75-l w-100 w-50-l fl">
-
+<div class="cf mb5">
+    <picture class="vh-50 vh-75-l w-100 w-50-l fl">
+        <source srcset="{{ .Values.webpS }} 500w, {{ .Values.webpM }} 1000w" type="image/webp">
+        <source srcset="{{ .Values.imageS }} 500w, {{ .Values.imageM }} 1000w" type="image/jpeg">
+        <img src={{ .Values.imageM }} alt="{{ .alt }}" class="fit-cover vh-50 vh-75-l w-100" loading="lazy">
     </picture>
 
-    <div class="vh-100 vh-75-l w-100 w-50-l fl bg-green flex-l items-center">
+    <div class="vh-50 vh-75-l w-100 w-50-l fl bg-green flex items-center">
         <div class="center mb3 pl3 pr3 ml5-l">
-            <h2 class="f3 b lh-title">{{ .values }}</h2>
-            <p class="f4">{{ .valuestext }}</p>
+            <h2 class="f3 b lh-title">{{ .Values.title }}</h2>
+            <ul class="f4">{{ .Values.text | safeHTML }}</ul>
         </div>   
     </div>
 

@@ -1,0 +1,16 @@
+<section class="center mb5">
+    <div class="flex-ns flex-wrap content-center justify-center mhn2-ns mb3">
+			{{ range .list }}
+                <div class="ph3-ns mb4 w5 center justify-content-center">
+					    <picture class="center">
+						    <source srcset="{{ .webpS }} 500w" type="image/webp">
+						    <source srcset="{{ .imageS }} 500w"	type="image/png">
+						    <img src="{{ .imageS }}" alt="{{ .alt }}" class="w4 content-center" loading="lazy">	
+					    </picture>
+					    <h2 class="tc">{{ .title }}</h2>
+                        <p>{{ .text }}</p>
+				</div>
+			{{ end }}
+		</div>
+
+    </section>

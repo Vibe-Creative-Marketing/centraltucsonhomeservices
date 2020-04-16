@@ -1,23 +1,22 @@
-<div class="">
-	<div class="mt5-l ph3 ph5-ns center">
+<section class="mb5 center">
+	<div class="mt5-l ph3 ph5-ns">
 		<h2 class="f2 b lh-title mb2">{{ .heading }}</h2>
 		<p class="mb4 mw6">{{ .description }}</p>
 		<h3 class="f3 lh-title">{{ .subheading }}</h3>
-
-		<div class="flex-ns flex-wrap mhn2-ns mb3">
+	</div>
+		<div class="flex-ns flex-wrap justify-center mhn2-ns mb3">
 			{{ range .about }}
-				<div class="ph2-ns w-50-ns mb4 bg-green mw6 center">
+				<div class="mb4 bg-green mw5 center">
 					<picture>
 						<source srcset="{{ .webpS }} 500w" type="image/webp">
 						<source srcset="{{ .imageS }} 500w"	type="image/jpeg">
-						<img src="{{ .imageS }}" alt="{{ .alt }}" class="fit-contain" loading="lazy">	
+						<img src="{{ .imageS }}" alt="{{ .alt }}" class="fit-cover h5 w5 mb3" loading="lazy">	
 					</picture>
-					<h2>{{ .name }}</h2>
-					<h3>{{ .position }}</h3>
-					<img src="{{ .image }}" alt="" class="center db mb3" style="width: 240px">
-					<p>{{ .text }}</p>
+					<h2 class="ma2">{{ .name }}</h2>
+					<h3 class="ma2">{{ .position }}</h3>
+					<p class="ma2">{{ .text }}</p>
 				</div>
 			{{ end }}
 		</div>
 	</div>
-</div>
+</section>
