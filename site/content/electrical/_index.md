@@ -12,12 +12,12 @@ image2S: https://vibecdn.azureedge.net/cths/electrical-grid1-500.jpg
 image2M: https://vibecdn.azureedge.net/cths/electrical-grid1-1000.jpg
 webp2S: https://vibecdn.azureedge.net/cths/electrical-grid1-500.webp
 webp2M: https://vibecdn.azureedge.net/cths/electrical-grid1-1000.webp
-alt2:
+alt2: "Electrical cables"
 image3S: https://vibecdn.azureedge.net/cths/electrical-grid2-500.jpg
 image3M: https://vibecdn.azureedge.net/cths/electrical-grid2-1000.jpg
 webp3S: https://vibecdn.azureedge.net/cths/electrical-grid2-500.webp
 webp3M: https://vibecdn.azureedge.net/cths/electrical-grid2-1000.webp
-alt3:
+alt3: "Man on a ladder"
 logo: https://vibecdn.azureedge.net/cths/logo.svg
 button: Get a Free Quote
 link: "/contact"
