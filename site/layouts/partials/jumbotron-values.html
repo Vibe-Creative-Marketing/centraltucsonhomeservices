@@ -5,10 +5,10 @@
         <img src={{ .Values.imageM }} alt="{{ .alt }}" class="fit-cover vh-50 vh-75-l w-100" loading="lazy">
     </picture>
 
-    <div class="vh-50 vh-75-l w-100 w-50-l fl bg-green flex items-center">
+    <div class="vh-50 vh-75-l w-100 w-50-l fl bg-light-gray flex items-center">
         <div class="center mb3 pl3 pr3 ml5-l">
-            <h2 class="f3 b lh-title">{{ .Values.title }}</h2>
-            <ul class="f4">{{ .Values.text | safeHTML }}</ul>
+            <h2 class="f2 fw9 b lh-title">{{ .Values.title }}</h2>
+            <ul class="f2 lh-title">{{ .Values.text | safeHTML }}</ul>
         </div>   
     </div>
 
