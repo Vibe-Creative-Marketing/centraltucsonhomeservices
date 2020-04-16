@@ -1,16 +1,21 @@
-<section class="center w-90-l mb5">
-    <div class="flex-ns flex-wrap content-center justify-between mhn2-ns mb3">
-			{{ range .list }}
-                <div class="ph3-ns mb4 w5">
+<section class="w-90-l mb5 center cf">
+    {{ range .list }}
+    <div class="fl w-100 w-25-ns pa3">
+            
+                <div class="w3 w4-l center">
 					    <picture class="">
 						    <source srcset="{{ .webpS }} 500w" type="image/webp">
 						    <source srcset="{{ .imageS }} 500w"	type="image/png">
-						    <img src="{{ .imageS }}" alt="{{ .alt }}" class="w4 center" loading="lazy">	
-					    </picture>
+						    <img src="{{ .imageS }}" alt="{{ .alt }}" class="fit-contain" loading="lazy">	
+                        </picture>
+                </div>
+                    <div class="center word-break">
 					    <h2 class="tc">{{ .title }}</h2>
-                        <p>{{ .text }}</p>
-				</div>
+                        <p class="f4">{{ .text }}</p>
+                    </div>    
+            </div>    
 			{{ end }}
-		</div>
+            
+    </div>
 
-    </section>
+</section>
