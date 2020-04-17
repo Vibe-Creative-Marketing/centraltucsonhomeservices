@@ -784,6 +784,37 @@ code, .code { font-family: Consolas, monaco, monospace; }
 */
 .input-reset { -webkit-appearance: none; -moz-appearance: none; }
 .button-reset::-moz-focus-inner, .input-reset::-moz-focus-inner { border: 0; padding: 0; }
+fieldset { position: relative; }
+/* from tachyons one-touch-hugo-cms */
+input {
+ background-color: #eee;
+ border-radius: 0;
+ padding: 12px 16px 10px;
+ font-size: 1rem;
+ line-height: 1.25;
+ position: relative;
+ transition: undefined;
+ z-index: 2;
+ &:focus { background-color: var( --white ); }
+ &:focus + label { opacity: 1; pointer-events: auto; -webkit-transform: translateY( -120% ); transform: translateY( -120% ); }
+}
+textarea {
+ background-color: #eee;
+ border-radius: 0;
+ padding: 12px 16px 10px;
+ font-size: 1rem;
+ line-height: 1.25;
+ position: relative;
+ transition: undefined;
+ z-index: 2;
+ &:focus { background-color: var( --white ); }
+ &:focus + label { opacity: 1; pointer-events: auto; -webkit-transform: translateY( -120% ); transform: translateY( -120% ); }
+}
+::-webkit-input-placeholder { color: #000; font-size: 1rem; line-height: normal; }
+:-moz-placeholder { color: #000; font-size: 1rem; line-height: normal; }
+::-moz-placeholder { color: #000; font-size: 1rem; line-height: normal; }
+:-ms-input-placeholder { color: #000; font-size: 1rem; line-height: normal; }
+label { font-size: .875rem; font-weight: 800; color: #fff; background-color: #eee; border-radius: undefined; padding: .25rem .5rem; position: absolute; left: 0; top: 0; pointer-events: none; opacity: 0; line-height: 1; transition: undefined; z-index: 2; }
 /*
 
    HEIGHTS
@@ -1973,6 +2004,29 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .word-wrap { word-break: break-all; }
 .word-nowrap { word-break: keep-all; }
 .word-break { word-break: break-word; }
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
+blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img,
+ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center,
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure,
+figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav,
+section { display: block; }
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+input { font-size: 1rem; border: none; font-family: inherit; border: 0; margin: 0; }
+textarea { font-size: 1rem; border: none; font-family: inherit; border: 0; margin: 0; }
+button { font-family: inherit; border: 0; margin: 0; cursor: pointer; }
+a { color: inherit; }
 /* Variables */
 /* Importing here will allow you to override any variables in the modules */
 /*
