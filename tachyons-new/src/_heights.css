@@ -122,3 +122,23 @@
   .h-auto-l { height: auto; }
   .h-inherit-l { height: inherit; }
 }
+/* added tablet breakpoint */
+@media (--breakpoint-largetablet) {
+  .h1-t { height: 1rem; }
+  .h2-t { height: 2rem; }
+  .h3-t { height: 4rem; }
+  .h4-t { height: 8rem; }
+  .h5-t { height: 16rem; }
+  .h-25-t { height: 25%; }
+  .h-50-t { height: 50%; }
+  .h-75-t { height: 75%; }
+  .h-100-t { height: 100%; }
+  .min-h-100-t { min-height: 100%; }
+  .vh-25-t {  height:  25vh; }
+  .vh-50-t {  height:  50vh; }
+  .vh-75-t {  height:  75vh; }
+  .vh-100-t { height: 100vh; }
+  .min-vh-100-t { min-height: 100vh; }
+  .h-auto-t { height: auto; }
+  .h-inherit-t { height: inherit; }
+}

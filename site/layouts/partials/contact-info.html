@@ -1,0 +1,20 @@
+<section class="cf pt5-m">
+    <div class="w-100 w-50-l fl flex items-center vh-50-l">
+        <h1 class="f2 f1-l b fw9 center">{{ .infoheading }}</h1>
+        <div class="w1 vh-25 bg-green nr2 dn dib-l"></div>
+    </div>
+
+    <div class="w-100 w-50-l fl pa3 dn-l">
+        <div class="mw5 pt2 bg-green center"></div>
+    </div>   
+
+    <div class="w-100 w-50-l fl flex items-center vh-50-l">
+        <div class="center">
+            {{ range .info }}
+            <ul class="list f4 f2-l lh-title center"><li class="">{{ . }}</li></ul>
+            {{ end }}
+        </div>
+    </div>
+
+
+</section>
