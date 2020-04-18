@@ -1,8 +1,8 @@
 ---
-title: "Electrical Services"
-subtitle: "Add a subtitle"
-heading: Electrical
-text: "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur."
+title: "Tucson Electrical Services"
+subtitle: "Safe, reliable, & worry-free electrical repairs"
+heading: "Customer satisfaction is our number one priority."
+text: "We understand that, when it comes to electrical repairs, finding a knowledgeable and trustworthy electrician in Tucson can be difficult. We treat each customer like our own family, so we can assure you that the job will get done the right way, not the easy way."
 image1S: https://vibecdn.azureedge.net/cths/electrical-500.jpg
 image1M: https://vibecdn.azureedge.net/cths/electrical-1000.jpg
 webp1S: https://vibecdn.azureedge.net/cths/electrical-500.webp

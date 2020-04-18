@@ -1,6 +1,6 @@
 ---
-title: Our Services
-subtitle: olwigedfpoqigev08g10e4q2801q8g
+title: Our Residential Services
+subtitle: We will get the job done right the first time.
 button: Get a Free Quote
 imageS: https://vibecdn.azureedge.net/cths/services-500.jpg
 imageM: https://vibecdn.azureedge.net/cths/services-1000.jpg
@@ -8,12 +8,11 @@ webpS: https://vibecdn.azureedge.net/cths/services-500.webp
 webpM: https://vibecdn.azureedge.net/cths/services-1000.webp
 logo: https://vibecdn.azureedge.net/cths/logo.svg
 intro:
-    heading: "Service Header 2"
-    text: "Our team of professionals is fully licensed, insured, and bonded in electrical services. 
-More services are coming soon!"
+    heading: "Home Maintenance Services in Tucson"
+    text: "Central Tucson Home Services is licensed, bonded, and insured in electrical services. We look forward to adding more residential services to our company soon."
 services:
   - heading: "Electrical"
-    text: "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur."
+    text: "Does your house maintenance require electrical services? You have come to the right place! Our group of experienced electricians is capable of providing a long list of electrical work. From hanging a chandelier to relocating an electrical outlet, no job is too big or small for our team."
     imageS: https://vibecdn.azureedge.net/cths/services-electrical-500.jpg
     imageM: https://vibecdn.azureedge.net/cths/services-electrical-1000.jpg
     webpS: https://vibecdn.azureedge.net/cths/services-electrical-500.webp
@@ -24,7 +23,7 @@ services:
     button2: "Learn More"
     link2: "/electrical"
     heading2: "More Services"
-    text2: "Consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem."
+    text2: "Please check back soon for more home maintenance services to come!"
 ---
 
 

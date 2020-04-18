@@ -2,7 +2,7 @@
 title: Home Services You Can Trust.
 titlelarge: Home Services<br> You Can Trust.
 titlesmall:
-subtitle: Our team of professionals is fully licensed,<br>insured, and bonded in electrical services.<br>More services are coming soon!
+subtitle: Our team of professionals is fully licensed,<br>insured, and bonded in electrical services.<br>More house services are coming soon!
 images: https://vibecdn.azureedge.net/cths/home-700.jpg
 imagem: https://vibecdn.azureedge.net/cths/home-1000.jpg
 imagel: https://vibecdn.azureedge.net/cths/home-2000.jpg
@@ -14,20 +14,20 @@ intro:
     text: Just one electrician from Central Tucson Home Services. 
 service1:
     images: https://vibecdn.azureedge.net/cths/electric%20icon-500.png
-    webpS:  https://vibecdn.azureedge.net/cths/electric%20icon-500.webp
-    alt:
-    heading: Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
-    text: "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem     sequi nesciunt. Neque porro quisquam est."
-    link: "/services"
-    button: "Read More"
+    webpS: https://vibecdn.azureedge.net/cths/electric%20icon-500.webp
+    alt: "electric icon"
+    heading: "Electrical Services"
+    text: "For electrical home repairs, upgrades, or solutions, receive safe and reliable service with unmatched quality. Our team is the most trusted and affordable electrical service company in Tucson."
+    link: "/electrical"
+    button: "Learn More"
 service2:
     imageS: https://vibecdn.azureedge.net/cths/home-services-icon-500.png
-    webpS:  https://vibecdn.azureedge.net/cths/home-services-icon-500.webp
-    alt:
-    heading: Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
-    text: "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem     sequi nesciunt. Neque porro quisquam est."
-    link: "/services"
-    button: "Read More"
+    webpS: https://vibecdn.azureedge.net/cths/home-services-icon-500.webp
+    alt: "Construction Icon"
+    heading: "Home Services"
+    text: "A company built by native Tucson residents, our goal is to help you and the community. At Central Tucson Home Services, receive high-quality house services from people you can trust!"
+    link: "/about-local-services"
+    button: "Learn More"
 review:
     heading: What Our Customers Say
     text:
