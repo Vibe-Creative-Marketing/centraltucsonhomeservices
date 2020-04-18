@@ -9,10 +9,17 @@ webpS: https://vibecdn.azureedge.net/cths/contact-500.webp
 webpM:  https://vibecdn.azureedge.net/cths/contact-1000.webp
 alt: "Tuscon Sunset"
 infoheading: "Central Tuscon Office"
-info:
-    address: "1 South Church Avenue Tucson, AZ. 85701"
-    phone: "(520) 276-9422"
-    email: "centraltucsonhs@gmail.com"
-    hours: "Mon - Sat | 9:00am - 5:00pm"
+address: "1 South Church Avenue Tucson, AZ. 85701"
+addresspng: https://vibecdn.azureedge.net/cths/address-icon-100.png
+addresswebp: https://vibecdn.azureedge.net/cths/address-icon-100.webp
+phone: "(520) 276-9422"
+phonepng: https://vibecdn.azureedge.net/cths/phone-icon-100.png
+phonewebp: https://vibecdn.azureedge.net/cths/phone-icon-100.webp
+email: "centraltucsonhs@gmail.com"
+emailpng: https://vibecdn.azureedge.net/cths/envelope-icon-100.png
+emailwebp: https://vibecdn.azureedge.net/cths/envelope-icon-100.webp
+hours: "Mon - Sat | 9:00am - 5:00pm"
+hourspng: https://vibecdn.azureedge.net/cths/time-icon-100.png
+hourswebp: https://vibecdn.azureedge.net/cths/time-icon-100.webp
 ---
 
