@@ -1,27 +1,35 @@
 ---
-title: "Home"
-titlelarge: "ASAP Movers 808"
-titlesmall: ASAP Movers<br>808
-subtitle: Women OWNED and Operated
-image: https://cdn.asapmovers808.com/unpacking-box-dog-1440.jpg
+title: Home Services You Can Trust.
+titlelarge: Home Services<br> You Can Trust.
+titlesmall:
+subtitle: Our team of professionals is fully licensed,<br>insured, and bonded in electrical services.<br>More house services are coming soon!
+images: https://vibecdn.azureedge.net/cths/home-700.jpg
+imagem: https://vibecdn.azureedge.net/cths/home-1000.jpg
+imagel: https://vibecdn.azureedge.net/cths/home-2000.jpg
+webps: https://vibecdn.azureedge.net/cths/home-700.webp
+webpm: https://vibecdn.azureedge.net/cths/home-1000.webp
+webpl: https://vibecdn.azureedge.net/cths/home-2000.webp
 intro:
-    heading: Big or small, we move it all!
-    text: 
-services:
-    - image: https://cdn.asapmovers808.com/rosie-the-riveter-icon-417x417.png
-      heading: Women Owned & Operated
-      text: "We can do it better than anyone! Trust in our moving company’s experience and passion to keep you and your life moving forward."
-      link: "/contact"
-      button: Get a Quote ASAP
-    - image: https://cdn.asapmovers808.com/container-truck-icon-417x417.png
-      heading: Pack, Move, Ship Anywhere
-      text: "Wherever life is taking you, ASAP Movers 808 is your relocation company. We’ll pack your belongings and ship them where they need to be so you can focus on the important things."
-      link: "/services"
-      button: See Our Services
-    - image: https://cdn.asapmovers808.com/5-stars-icon-417x417.png
-      heading: You’re First on Our Packing List
-      text: "Your satisfaction is the most important part of our packing list! Customer service is our priority so you can enjoy a stress-free moving experience."
-      link: "https://www.yelp.com/biz/asap-moving-waipahu"
-      button: Read Reviews
+    heading: How many workers does it take to screw in a lightbulb?
+    text: Just one electrician from Central Tucson Home Services. 
+service1:
+    images: https://vibecdn.azureedge.net/cths/electric%20icon-500.png
+    webpS: https://vibecdn.azureedge.net/cths/electric%20icon-500.webp
+    alt: "electric icon"
+    heading: "Electrical Services"
+    text: "For electrical home repairs, upgrades, or solutions, receive safe and reliable service with unmatched quality. Our team is the most trusted and affordable electrical service company in Tucson."
+    link: "/electrical"
+    button: "Learn More"
+service2:
+    imageS: https://vibecdn.azureedge.net/cths/home-services-icon-500.png
+    webpS: https://vibecdn.azureedge.net/cths/home-services-icon-500.webp
+    alt: "Construction Icon"
+    heading: "Home Services"
+    text: "A company built by native Tucson residents, our goal is to help you and the community. At Central Tucson Home Services, receive high-quality house services from people you can trust!"
+    link: "/about-local-services"
+    button: "Learn More"
+review:
+    heading: What Our Customers Say
+    text:
 ---
 

@@ -1,7 +1,9 @@
 {{ define "main" }}
 
-{{ partial "jumbotron-home" (dict "imageUrl" .Params.image "title" .Title "titlelarge" .Params.titlelarge "subtitle" .Params.subtitle "titlesmall" .Params.titlesmall) }}
+{{ partial "jumbotron-home" (dict "imageS" .Params.images "imageM" .Params.imagem "imageL" .Params.imagel "webpS" .Params.webps "webpM" .Params.webpm "webpL" .Params.webpl "title" .Title "titlelarge" .Params.titlelarge "subtitle" .Params.subtitle "titlesmall" .Params.titlesmall) }}
 
-{{ partial "3-up" .Params }}
+{{ partial "home-service" .Params }}
+
+{{ partial "yelp-review" .Params }}
 
 {{ end }}
