@@ -20,5 +20,5 @@ webp3M: https://vibecdn.azureedge.net/cths/electrical-grid2-1000.webp
 alt3: "Man on a ladder"
 logo: https://vibecdn.azureedge.net/cths/logo.svg
 button: Get a Free Quote
-link: "/contact"
+link: "/service-cost"
 ---

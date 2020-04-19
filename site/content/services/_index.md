@@ -19,7 +19,7 @@ services:
     webpM: https://vibecdn.azureedge.net/cths/services-electrical-1000.webp
     alt: "Electrical Services"
     button1: "Get a Free Quote"
-    link1: "/contact"
+    link1: "/service-cost"
     button2: "Learn More"
     link2: "/electrical"
     heading2: "More Services"
