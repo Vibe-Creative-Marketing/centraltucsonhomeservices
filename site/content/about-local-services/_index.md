@@ -19,8 +19,8 @@ about:
       Hi, I’m Austin! I went to High School at Mountain View and graduated from the University of Arizona. I currently live in Tucson with my wife and 4 kids and work as a Branch Manager at Wells Fargo.
       On the weekends, I love hunting, BJJ, and even started my own gym, Marana Martial Arts. Please come check us out if you have a chance.
       We hope to work with you soon!  
-    imageS: https://vibecdn.azureedge.net/cths/austin.crop.jpg
-    webpS: https://vibecdn.azureedge.net/cths/austin.webp
+    imageS: https://vibecdn.azureedge.net/cths/austin-metzger-500.jpg
+    webpS: https://vibecdn.azureedge.net/cths/austin-metzger-500.webp
     alt: "Austin Metzger"
   - name: "Bennie Brown"
     position: "Partner"
