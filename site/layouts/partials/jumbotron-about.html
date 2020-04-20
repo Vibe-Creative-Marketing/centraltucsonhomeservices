@@ -1,26 +1,20 @@
-<header class="vh-100 vh-75-l relative" role="banner">
+<div class="cf mb6" role="banner">
  
   <picture>
     <source srcset="{{ .webpS }} 700w, {{ .webpM }} 1000w, {{ .webpL }} 2000w" type="image/webp">
     <source srcset="{{ .imageS }} 700w, {{ .imageM }} 1000w, {{ .imageL }} 2000w" type="image/jpeg">
-    <img src="{{ .imageL }}" alt="{{ .alt }}" class="fit-cover vh-100 vh-75-l w-100">
+    <img src="{{ .imageL }}" alt="{{ .alt }}" class="fit-cover vh-50 vh-75-ns w-100 w-50-l">
   </picture>
 
-  <section class="top-1 absolute center pa3 ma6-l ma5-t black br2 bg-white-60 ml2 nt3-m w-100-m">
-    <div class="">
-      <h1 class="f2 f1-l fw9 lh-title">
-        {{ .titlelarge | safeHTML }}
+  <div class="w-100 w-50-l fl vh-50 vh-75-ns flex items-center">
+    <div class="center mb3 pl3 pr3 ml5-l">
+      <h1 class="f3 f2-l fw9 lh-title">
+        {{ .heading }}
       </h1>
-    </div>
-
-    <div class="f3 f2-l fw5 lh-title pb3">
-      {{ if .subtitle }}
-      <p>
-        {{ .subtitle | safeHTML }}
+      <p class="f5 f3-l">
+        {{ .description | safeHTML }}
       </p>
-      {{ end }}
     </div>
+  </div>
 
-  </section>
-
-</header>
+</div>

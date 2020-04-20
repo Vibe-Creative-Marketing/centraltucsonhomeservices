@@ -19,8 +19,8 @@ about:
       Hi, I’m Austin! I went to High School at Mountain View and graduated from the University of Arizona. I currently live in Tucson with my wife and 4 kids and work as a Branch Manager at Wells Fargo.
       On the weekends, I love hunting, BJJ, and even started my own gym, Marana Martial Arts. Please come check us out if you have a chance.
       We hope to work with you soon!  
-    imageS: https://vibecdn.azureedge.net/cths/austin.crop.jpg
-    webpS: https://vibecdn.azureedge.net/cths/austin.webp
+    imageS: https://vibecdn.azureedge.net/cths/austin-metzger-500.jpg
+    webpS: https://vibecdn.azureedge.net/cths/austin-metzger-500.webp
     alt: "Austin Metzger"
   - name: "Bennie Brown"
     position: "Partner"
@@ -41,7 +41,8 @@ about:
     webpS: https://vibecdn.azureedge.net/cths/kai.webp
     alt: "Kainoa Akina"
 values: 
-    title: "Our Core Values"
+    title: "Your Local Service Team"
+    subtitle: "Our Core Values"
     text: "<li>Treat people the way we would like to be treated</li><li>Give 100% effort and take great pride in our work</li><li>Do business the right way: be honest, be professional, and get the job done</li><li>Be a good listener and a good communicator</li><li> Make someone smile, every day</li>"
     imageS: https://vibecdn.azureedge.net/cths/core-values-500.jpg
     imageM: https://vibecdn.azureedge.net/cths/core-values-1000.jpg
