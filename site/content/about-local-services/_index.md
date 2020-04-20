@@ -41,7 +41,8 @@ about:
     webpS: https://vibecdn.azureedge.net/cths/kai.webp
     alt: "Kainoa Akina"
 values: 
-    title: "Our Core Values"
+    title: "Your Local Service Team"
+    subtitle: "Our Core Values"
     text: "<li>Treat people the way we would like to be treated</li><li>Give 100% effort and take great pride in our work</li><li>Do business the right way: be honest, be professional, and get the job done</li><li>Be a good listener and a good communicator</li><li> Make someone smile, every day</li>"
     imageS: https://vibecdn.azureedge.net/cths/core-values-500.jpg
     imageM: https://vibecdn.azureedge.net/cths/core-values-1000.jpg
