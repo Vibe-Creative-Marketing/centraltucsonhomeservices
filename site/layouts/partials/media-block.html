@@ -17,6 +17,6 @@
   <picture class="w-100 w-50-l fl">
     <source srcset="{{ .webpS }} 500w, {{ .webpM }} 1000w" type="image/webp">
     <source srcset="{{ .imageS }} 500w, {{ .imageM }} 1000w" type="image/jpeg"> 
-    <img src="{{ .imageM }}" alt="{{ .alt }}" class="db mb2 center mw6 mw6-t mw7-l fr-l">
+    <img src="{{ .imageM }}" alt="{{ .alt }}" class="db mb2 center mw6 mw6-t mw7-l fr-l" loading="lazy">
   </picture>
 </div>
