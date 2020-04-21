@@ -9,7 +9,7 @@ webpS: https://vibecdn.azureedge.net/cths/contact-500.webp
 webpM:  https://vibecdn.azureedge.net/cths/contact-1000.webp
 alt: "Tuscon Sunset"
 infoheading: "Central Tuscon Office"
-address: "1 South Church Avenue Tucson, AZ. 85701"
+address: "1024 N Euclid Ave. Tucson, AZ 85719"
 addresspng: https://vibecdn.azureedge.net/cths/address-icon-100.png
 addresswebp: https://vibecdn.azureedge.net/cths/address-icon-100.webp
 phone: "(520) 276-9422"
