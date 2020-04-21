@@ -28,7 +28,7 @@ service2:
     alt: "Construction Icon"
     heading: "Home Services"
     text: "A company built by native Tucson residents, our goal is to help you and the community. At Central Tucson Home Services, receive high-quality house services from people you can trust!"
-    link: "/about-local-services"
+    link: "/services"
     button: "Learn More"
 review:
     heading: What Our Customers Say
