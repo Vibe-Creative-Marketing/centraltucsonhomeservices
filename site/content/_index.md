@@ -3,9 +3,11 @@ title: Home Services You Can Trust.
 titlelarge: Home Services<br> You Can Trust.
 titlesmall:
 subtitle: Our team of professionals is fully licensed,<br>insured, and bonded in electrical services.<br>More house services are coming soon!
+imagetiny: https://vibecdn.azureedge.net/cths/home-450.jpg
 images: https://vibecdn.azureedge.net/cths/home-700.jpg
 imagem: https://vibecdn.azureedge.net/cths/home-1000.jpg
 imagel: https://vibecdn.azureedge.net/cths/home-2000.jpg
+webptiny: https://vibecdn.azureedge.net/cths/home-450.webp
 webps: https://vibecdn.azureedge.net/cths/home-700.webp
 webpm: https://vibecdn.azureedge.net/cths/home-1000.webp
 webpl: https://vibecdn.azureedge.net/cths/home-2000.webp
