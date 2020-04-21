@@ -2917,7 +2917,7 @@ svg { fill: currentColor; }
  .word-nowrap-m { word-break: keep-all; }
  .word-break-m { word-break: break-word; }
 }
-@media screen and (min-width: 60em) {
+@media screen and (min-width: 64em) {
  .aspect-ratio-l { height: 0; position: relative; }
  .aspect-ratio--16x9-l { padding-bottom: 56.25%; }
  .aspect-ratio--9x16-l { padding-bottom: 177.77%; }
