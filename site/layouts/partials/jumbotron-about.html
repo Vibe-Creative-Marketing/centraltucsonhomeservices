@@ -1,4 +1,4 @@
-<div class="cf mb6" role="banner">
+<section class="cf mb6" role="banner">
  
   <picture>
     <source srcset="{{ .webpS }} 700w, {{ .webpM }} 1000w, {{ .webpL }} 2000w" type="image/webp">
@@ -11,10 +11,13 @@
       <h1 class="f3 f2-l fw9 lh-title">
         {{ .heading }}
       </h1>
-      <p class="f5 f4-l">
+      <p class="mb0 f5 f4-l">
         {{ .description | safeHTML }}
+      </p>
+      <p class="mt1 f5 f4-l cursive">
+        {{ .signature }}
       </p>
     </div>
   </div>
 
-</div>
+</section>
