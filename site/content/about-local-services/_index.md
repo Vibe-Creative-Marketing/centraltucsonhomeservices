@@ -29,8 +29,8 @@ about:
       Hi, I’m Bennie, a partner with CTHS. I grew up in Tucson, went to Mountain View High School, and graduated from the University of Arizona. I am a CPA with ASARCO and am married with 2 kids.
       I love working out and figuring out how to save money!
       We are here to help you in any way we can
-    imageS: https://vibecdn.azureedge.net/cths/bennie.crop.jpg
-    webpS: https://vibecdn.azureedge.net/cths/bennie.webp
+    imageS: https://vibecdn.azureedge.net/cths/bennie-brown-500.jpg
+    webpS: https://vibecdn.azureedge.net/cths/bennie-brown-500.webp
     alt: "Bennie Brown"
   - name: "Kainoa Akina"
     position: "Partner"
@@ -38,8 +38,8 @@ about:
       Hi, my name is Kainoa, and I grew up in Tucson. I went to Mountain View High School, then went on to graduate from the University of Hawaii. I have a wife, 2 kids, and a dog. While I currently live in Hawaii, I spend a lot of time in Tucson and hope to have more time here.
       I love working out and going to the beach.
       Thank you very much for your interest in us. We very much hope to work with you soon. Much aloha!
-    imageS: https://vibecdn.azureedge.net/cths/kai.crop.jpg
-    webpS: https://vibecdn.azureedge.net/cths/kai.webp
+    imageS: https://vibecdn.azureedge.net/cths/kainoa-akina-500.jpg
+    webpS: https://vibecdn.azureedge.net/cths/kainoa-akina-500.webp
     alt: "Kainoa Akina"
 values: 
     title: "Your Local Service Team"
