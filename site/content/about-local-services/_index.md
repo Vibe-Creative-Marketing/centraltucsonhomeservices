@@ -28,7 +28,7 @@ about:
     text: >
       Hi, I’m Bennie, a partner with CTHS. I grew up in Tucson, went to Mountain View High School, and graduated from the University of Arizona. I am a CPA with ASARCO and am married with 2 kids.
       I love working out and figuring out how to save money!
-      We are here to help you in any way we can
+      We are here to help you in any way we can.
     imageS: https://vibecdn.azureedge.net/cths/bennie-brown-500.jpg
     webpS: https://vibecdn.azureedge.net/cths/bennie-brown-500.webp
     alt: "Bennie Brown"
