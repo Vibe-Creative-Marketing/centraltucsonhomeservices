@@ -26,7 +26,7 @@ about:
   - name: "Bennie Brown"
     position: "Partner"
     text: >
-      Hi, I’m Bennie, a partner with CTHS. I grew up in Tucson, went to Mountain View High School, and graduated from the University of Arizona. I am a CPA with ASARCO and am married with 2 kids.
+      Hi, I’m Bennie, a partner with CTHS. I grew up in Tucson, went to Mountain View High School, and graduated from the University of Arizona. I am an auditing manager with ASARCO and am married with 2 kids.
       I love working out and figuring out how to save money!
       We are here to help you in any way we can.
     imageS: https://vibecdn.azureedge.net/cths/bennie-brown-500.jpg
@@ -41,6 +41,20 @@ about:
     imageS: https://vibecdn.azureedge.net/cths/kainoa-akina-500.jpg
     webpS: https://vibecdn.azureedge.net/cths/kainoa-akina-500.webp
     alt: "Kainoa Akina"
+  - name: Tim Long
+    position:
+    text: >
+      Hi, my name is Tim Long, and I grew up in San Diego, California. I moved to Tucson a couple of years ago and love it out here. I have over 20 years of experience as an electrician, mason, carpenter, and handyman. I love hunting, shooting, and off-roading in my spare time. I very much look forward to working with you!
+    imageS: https://vibecdn.azureedge.net/cths/tim-500.jpg
+    webpS: https://vibecdn.azureedge.net/cths/tim-500.webp
+    alt: Tim Long
+  - name: Dianna Brady
+    position:
+    text: >
+      Hi, my name is Dianna Brady, and I grew up in San Diego, California. I have over 10 years of experience as a Service Manager for multiple car dealerships in California. I moved to Tucson a couple of years ago and just love it! Some of my hobbies are: fishing, camping, and antiquing. We look forward to working with you!
+    imageS: https://vibecdn.azureedge.net/cths/dianna-500.jpeg
+    webpS: https://vibecdn.azureedge.net/cths/dianna-500.webp
+    alt: Dianna Brady
 values: 
     title: "Your Local Service Team"
     subtitle: "Our Core Values"
