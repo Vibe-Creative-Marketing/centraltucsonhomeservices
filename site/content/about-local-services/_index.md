@@ -15,7 +15,7 @@ signature: "The Families of Central Tucson Home Services"
 subheading: 
 about:
   - name: "Austin Metzger"
-    position: "Partner"
+    position:
     text: >
       Hi, I’m Austin! I went to High School at Mountain View and graduated from the University of Arizona. I currently live in Tucson with my wife and 4 kids and work as a Branch Manager at Wells Fargo.
       On the weekends, I love hunting, BJJ, and even started my own gym, Marana Martial Arts. Please come check us out if you have a chance.
@@ -24,7 +24,7 @@ about:
     webpS: https://vibecdn.azureedge.net/cths/austin-metzger-500.webp
     alt: "Austin Metzger"
   - name: "Bennie Brown"
-    position: "Partner"
+    position:
     text: >
       Hi, I’m Bennie, a partner with CTHS. I grew up in Tucson, went to Mountain View High School, and graduated from the University of Arizona. I am an auditing manager with ASARCO and am married with 2 kids.
       I love working out and figuring out how to save money!
@@ -33,7 +33,7 @@ about:
     webpS: https://vibecdn.azureedge.net/cths/bennie-brown-500.webp
     alt: "Bennie Brown"
   - name: "Kainoa Akina"
-    position: "Partner"
+    position:
     text: >
       Hi, my name is Kainoa, and I grew up in Tucson. I went to Mountain View High School, then went on to graduate from the University of Hawaii. I have a wife, 2 kids, and a dog. While I currently live in Hawaii, I spend a lot of time in Tucson and hope to have more time here.
       I love working out and going to the beach.
