@@ -52,7 +52,7 @@ about:
     position:
     text: >
       Hi, my name is Dianna Brady, and I grew up in San Diego, California. I have over 10 years of experience as a Service Manager for multiple car dealerships in California. I moved to Tucson a couple of years ago and just love it! Some of my hobbies are: fishing, camping, and antiquing. We look forward to working with you!
-    imageS: https://vibecdn.azureedge.net/cths/dianna-500.jpeg
+    imageS: https://vibecdn.azureedge.net/cths/dianna-500.jpg
     webpS: https://vibecdn.azureedge.net/cths/dianna-500.webp
     alt: Dianna Brady
 values: 
