@@ -30,5 +30,31 @@
 	<meta property="business:contact_data:region" content="Arizona">
 	<meta property="business:contact_data:postal_code" content="85719">
 	<meta property="business:contact_data:country_name" content="United States">
+
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-163311065-1"></script>
+	<script>
+  		window.dataLayer = window.dataLayer || [];
+  		function gtag(){dataLayer.push(arguments);}
+  		gtag('js', new Date());
+
+  		gtag('config', 'UA-163311065-1');
+  		gtag('config', 'AW-654868380');
+	</script>
+
+	<!-- Event snippet for Website traffic (1) conversion page -->
+
+	{{ if .IsHome }}
+	<script> 
+		gtag('event', 'conversion', {'send_to': 'AW-654868380/jLsYCLDW0M4BEJz_obgC'}); 
+	</script>
+	{{ end }}
+
+	{{ if eq .Section "electrical" }}
+	<script> 
+	gtag('event', 'conversion', {'send_to': 'AW-654868380/jLsYCLDW0M4BEJz_obgC'}); 
+	</script>
+	{{ end }}
   
 </head>
