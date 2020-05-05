@@ -10,7 +10,7 @@ webpM: https://vibecdn.azureedge.net/cths/about-us-1000.webp
 webpL: https://vibecdn.azureedge.net/cths/about-us-2000.webp
 alt: "City of Tucson AZ"
 heading: "Meet Our Team"
-description: "Central Tucson Home Services is a local business, family owned and operated. Our team grew up here in Tucson and absolutely loves the city and the people. It’s because of our Tucson roots that 10% of all net revenue goes to our foundation – Central Tucson Gives Back – which focuses on child and family non-profit organizations in the Arizona area. We also have multiple rental units, managed by Central Tucson Property Management.<br><br>We hope you will put your trust in us to deliver your home services needs.<br><br>Warmest Aloha,"
+description: 'Central Tucson Home Services is a local business, family owned and operated. Our team grew up here in Tucson and absolutely loves the city and the people. It’s because of our Tucson roots that 10% of all net revenue goes to our foundation – Central Tucson Gives Back – which focuses on child and family non-profit organizations in the Arizona area. We also have multiple rental units, managed by <a href="https://centraltucsonpropertymanagement.com/" target="_blank" class="link dim">Central Tucson Property Management</a>.<br><br>We hope you will put your trust in us to deliver your home services needs.<br><br>Warmest Aloha,'
 signature: "The Families of Central Tucson Home Services"
 subheading: 
 about:
