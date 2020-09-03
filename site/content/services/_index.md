@@ -23,7 +23,7 @@ services:
     button2: "Learn More"
     link2: "/electrical"
     heading2: "Handyman"
-    text2: "Everyone needs a go-to handyman when something unexpectedly breaks or a home project becomes too challenging. From fixing wheelchairs to moving belongs, we're open to taking on almost any home service request to make your life easier. Just let us know how we can help!"
+    text2: "Everyone needs a go-to handyman when something unexpectedly breaks or a home project becomes too challenging. From fixing wheelchairs to moving belongings, we'll assist with almost any home service request to make your life easier. Just let us know how we can help!"
 ---
 
 
