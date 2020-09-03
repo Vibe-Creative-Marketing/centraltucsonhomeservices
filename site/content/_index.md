@@ -2,7 +2,7 @@
 title: Home Services You Can Trust.
 titlelarge: Home Services<br> You Can Trust.
 titlesmall:
-subtitle: Our team of professionals is fully licensed,<br>insured, and bonded in electrical services.<br>We also provide local handyman services for nearly anything life throws at you!
+subtitle: Our team of professionals is fully licensed,<br>insured, and bonded in electrical services.<br>We also provide local handyman services<br>for nearly anything life throws at you!
 imagetiny: https://vibecdn.azureedge.net/cths/home-450.jpg
 images: https://vibecdn.azureedge.net/cths/home-700.jpg
 imagem: https://vibecdn.azureedge.net/cths/home-1000.jpg
