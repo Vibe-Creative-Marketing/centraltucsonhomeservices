@@ -9,7 +9,7 @@ webpM: https://vibecdn.azureedge.net/cths/services-1000.webp
 logo: https://vibecdn.azureedge.net/cths/logo.svg
 intro:
     heading: "Home Maintenance Services in Tucson"
-    text: "Central Tucson Home Services is licensed, bonded, and insured in electrical services. We look forward to adding more residential services to our company soon."
+    text: "Central Tucson Home Services is licensed, bonded, and insured in electrical services. We also provide local handyman services for nearly anything life throws at you!"
 services:
   - heading: "Electrical"
     text: "Does your house maintenance require electrical services? You have come to the right place! Our group of experienced electricians is capable of providing a long list of electrical work. From hanging a chandelier to relocating an electrical outlet, no job is too big or small for our team."
@@ -22,8 +22,8 @@ services:
     link1: "/service-cost"
     button2: "Learn More"
     link2: "/electrical"
-    heading2: "More Services"
-    text2: "Please check back soon for more home maintenance services to come!"
+    heading2: "Handyman"
+    text2: "Everyone needs a go-to handyman when something unexpectedly breaks or a home project becomes too challenging. From fixing wheelchairs to moving belongs, we're open to taking on almost any home service request to make your life easier. Just let us know how we can help!"
 ---
 
 
